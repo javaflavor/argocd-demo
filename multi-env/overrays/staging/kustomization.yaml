@@ -1,0 +1,8 @@
+commonLabels:
+  org: RHTE
+commonAnnotations:
+  note: Staging Environment Set
+bases:
+- ../../base
+resources:
+- namespace.yaml

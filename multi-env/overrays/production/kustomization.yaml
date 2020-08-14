@@ -1,0 +1,10 @@
+commonLabels:
+  org: RHTE
+commonAnnotations:
+  note: Production Environment Set
+bases:
+- ../../base
+resources:
+- namespace.yaml
+patchesStrategicMerge:
+- deployment.yaml
