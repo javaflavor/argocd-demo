@@ -4,7 +4,7 @@ metadata:
   labels:
     app: httpd
   name: httpd
-  namespace: simple-app
+  namespace: simple
 spec:
   port:
     targetPort: 8080
